@@ -8,17 +8,19 @@ setup(
     # dependencies
     install_requires=[
         'numpy>1.14.0,<2.0.0',
-        'pytest-runner',
+        'sklearn',
+        'networkx'
     ],
     tests_require=[
+        'pytest-runner',
         "pytest",
     ],
 
     # metadata for upload to PyPI
     author="Tobias Windisch",
     author_email="tobias.windisch@posteo.de",
-    description="Python library for simplicial complexes",
+    description="Collection of personalized helpers for data projects",
     license="GNU GPL3",
-    keywords="simplicial complex persistance",
+    keywords="visualization features",
     url="https://github.com/windisch/simplipy",
 )
