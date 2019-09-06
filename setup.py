@@ -9,10 +9,10 @@ setup(
     install_requires=[
         'numpy>1.14.0,<2.0.0',
         'sklearn',
-        'networkx'
+        'xgboost',
+        'pandas'
     ],
     tests_require=[
-        'pytest-runner',
         "pytest",
     ],
 
