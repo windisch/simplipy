@@ -21,3 +21,11 @@ def reverse_cumsum(x):
     index larger or equal than :code:`i`
     """
     return np.cumsum(x[::-1])[::-1]
+
+
+def argmax(a):
+    """
+    Computes the multidimensional argument maximum of a numpy array.
+    """
+
+    return np.unravel_index(np.argmax(a, axis=None), a.shape)
