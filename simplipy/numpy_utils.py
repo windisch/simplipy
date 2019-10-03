@@ -29,3 +29,10 @@ def argmax(a):
     """
 
     return np.unravel_index(np.argmax(a, axis=None), a.shape)
+
+
+def get_change_points(a):
+    """
+    Computes the positions in the array where the value differs to the previous entry.
+    """
+    return np.where(np.diff(a) != 0)[0]+1

@@ -1,6 +1,7 @@
 import unittest
 import numpy as np
 from simplipy.numpy_utils import reverse_cumsum
+from simplipy.numpy_utils import get_change_points
 from simplipy.numpy_utils import argmax
 
 
@@ -22,4 +23,13 @@ class TestNumpyUtils(unittest.TestCase):
         self.assertTupleEqual(
             argmax(a),
             (1, 3)
+        )
+
+    def test_get_change_points(self):
+
+        a = np.array([1, 0, 0, 1, 1, 0, 1, 1, 0])
+
+        np.testing.assert_array_equal(
+            get_change_points(a),
+            [1, 3, 5, 6, 8]
         )
