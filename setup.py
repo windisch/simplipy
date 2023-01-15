@@ -8,7 +8,7 @@ setup(
     # dependencies
     install_requires=[
         'numpy>=1.17.2',
-        'sklearn',
+        'scikit_learn',
         'xgboost',
         'matplotlib',
         'pandas'
