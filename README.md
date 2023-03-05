@@ -3,7 +3,8 @@
 A collection of personalized python helpers that simplify machine
 learning projects.
 
-[![Build Status](https://api.travis-ci.org/windisch/simplipy.svg?branch=master)](https://travis-ci.org/windisch/simplipy)
+[![Test Package](https://github.com/windisch/simplipy/actions/workflows/test_package.yml/badge.svg)](https://github.com/windisch/simplypi/actions/workflows/test_package.yml)
+[![PyPI](https://img.shields.io/pypi/v/simplipy)](https://pypi.org/project/simplipy/)
 
 
 ## Installation
