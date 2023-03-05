@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="simplipy",
-    version="0.0.2",
+    version="0.1.0",
     packages=["simplipy"],
 
     # dependencies
